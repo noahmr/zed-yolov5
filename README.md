@@ -4,6 +4,13 @@
 
 This is an example for performing [YOLOv5](https://github.com/ultralytics/yolov5) object detection with TensorRT and the [Stereolabs ZED](https://www.stereolabs.com/) stereo depth camera. The code uses the [yolov5-tensorrt](https://github.com/noahmr/yolov5-tensorrt/) library, and is based on one of the examples from this same library. The demo picture above shows its use at [VDL RobotSports](https://robotsports.nl), an industrial team based in the Netherlands participating in the RoboCup Middle Size League.
 
+<div align="center">
+
+[![platform](https://img.shields.io/badge/platform-linux%20%7C%20L4T-orange?style=for-the-badge)](https://github.com/noahmr/zed-yolov5#setup)
+[![language](https://img.shields.io/badge/language-c++-blue?style=for-the-badge)](https://github.com/noahmr/zed-yolov5#usage)
+[![license](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+</div>
+
 ## <div align="center">Setup</div>
 
 <details>
@@ -16,7 +23,7 @@ This is an example for performing [YOLOv5](https://github.com/ultralytics/yolov5
 <details open>
 <summary>Dependencies</summary>
 
-- [yolov5-tensorrt](https://github.com/noahmr/yolov5-tensorrt/) >= 0.1
+- [yolov5-tensorrt](https://github.com/noahmr/yolov5-tensorrt/)
 - OpenCV
 - ZED SDK (tested with version 3.6.1)
   
