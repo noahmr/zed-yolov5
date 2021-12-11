@@ -2,7 +2,7 @@
 
 ![](./docs/demo_robotsports.png)
 
-This is an example for performing [YOLOv5](https://github.com/ultralytics/yolov5) object detection with TensorRT and the [Stereolabs ZED](https://www.stereolabs.com/) stereo depth camera. The code uses the [yolov5-tensorrt](https://github.com/noahmr/yolov5-tensorrt/) library, and is based on one of the examples from this same library. The demo picture above shows its use at [VDL RobotSports](https://robotsports.nl), an industrial team based in the Netherlands participating in the RoboCup Middle Size League.
+This project shows how to perform [YOLOv5](https://github.com/ultralytics/yolov5) object detection with TensorRT and the [Stereolabs ZED](https://www.stereolabs.com/) stereo depth camera. The code uses the [yolov5-tensorrt](https://github.com/noahmr/yolov5-tensorrt/) library, and is based on one of the examples from this same library. The demo picture above shows its use at [VDL RobotSports](https://robotsports.nl), an industrial team based in the Netherlands participating in the RoboCup Middle Size League.
 
 <div align="center">
 
@@ -64,7 +64,7 @@ to a TensorRT engine, so you could try that instead of steps 1 and 2. However, t
   
         initParameters.camera_resolution = sl::RESOLUTION::HD720;
     in ```detect.cpp```
-  
+- Currently, only a C++ implementation is available. In the future, a Python implementation will be added as well
 </details>
 
 <details>
