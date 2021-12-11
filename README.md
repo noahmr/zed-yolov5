@@ -60,6 +60,10 @@ This will build the application ```detect```.
   
 - It appears that since [this](https://github.com/ultralytics/yolov5/pull/5699) pull request, the export.py script in the official YOLOv5 repository can now also directly export
 to a TensorRT engine, so you could try that instead of steps 1 and 2. However, this has not been tested.
+- If you are running the application with an SVO, you might need to change the resolution in the code so that it matches the resolution at which the SVO was recorded. This is the line
+  
+        initParameters.camera_resolution = sl::RESOLUTION::HD720;
+    in ```detect.cpp```
   
 </details>
 
